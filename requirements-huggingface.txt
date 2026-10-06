@@ -1,0 +1,8 @@
+# Opcional: embeddings locales sin API key (EMBEDDING_PROVIDER=huggingface).
+# Instala torch (~200 MB+) y descarga el modelo (~470 MB) la primera vez.
+-r requirements.txt
+
+langchain-huggingface==1.2.2
+sentence-transformers==6.1.0
+transformers==5.18.0
+torch==2.14.1

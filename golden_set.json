@@ -1,0 +1,53 @@
+[
+  {
+    "pregunta": "¿Cómo levanto el servidor en modo desarrollo para que se reinicie solo cuando cambio el código?",
+    "documento_id_esperado": "instalacion_y_primera_app.md",
+    "tipo": "parafraseo"
+  },
+  {
+    "pregunta": "¿Qué código de estado HTTP devuelve FastAPI cuando falla la validación de un parámetro de consulta?",
+    "documento_id_esperado": "parametros_de_ruta_y_query.md",
+    "tipo": "termino-tecnico"
+  },
+  {
+    "pregunta": "¿Cómo declaro un campo opcional con valor por defecto en un modelo BaseModel del cuerpo de la petición?",
+    "documento_id_esperado": "cuerpo_de_la_peticion_pydantic.md",
+    "tipo": "termino-tecnico"
+  },
+  {
+    "pregunta": "¿Cómo abro una sesión de base de datos por petición y me aseguro de cerrarla siempre al terminar?",
+    "documento_id_esperado": "inyeccion_de_dependencias.md",
+    "tipo": "parafraseo"
+  },
+  {
+    "pregunta": "Quiero mandar un mail de confirmación después de responder, sin que el usuario tenga que esperar",
+    "documento_id_esperado": "tareas_en_segundo_plano.md",
+    "tipo": "parafraseo"
+  },
+  {
+    "pregunta": "¿Puedo usar allow_origins=[\"*\"] con allow_credentials=True en CORSMiddleware?",
+    "documento_id_esperado": "middleware_y_cors.md",
+    "tipo": "termino-tecnico"
+  },
+  {
+    "pregunta": "¿Para qué sirve el parámetro tokenUrl de OAuth2PasswordBearer?",
+    "documento_id_esperado": "autenticacion_oauth2_jwt.md",
+    "tipo": "termino-tecnico"
+  },
+  {
+    "pregunta": "¿Cómo pruebo mis endpoints sin tener que levantar el servidor?",
+    "documento_id_esperado": "testing_con_testclient.md",
+    "tipo": "parafraseo"
+  },
+  {
+    "pregunta": "¿Cuántos workers de Gunicorn conviene configurar en producción?",
+    "documento_id_esperado": "despliegue_en_produccion.pdf",
+    "tipo": "termino-tecnico"
+  },
+  {
+    "pregunta": "¿Qué cambió al migrar a Pydantic v2? ¿Sigue existiendo el método .dict()?",
+    "documento_id_esperado": "preguntas_frecuentes.json",
+    "documentos_relevantes": ["preguntas_frecuentes.json", "cuerpo_de_la_peticion_pydantic.md"],
+    "tipo": "multi-documento"
+  }
+]
